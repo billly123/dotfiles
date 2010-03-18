@@ -1,0 +1,48 @@
+
+
+
+! terminal colors ------------------------------------------------------------
+*background:    #000000
+*foreground:    #FFFFFF
+!black
+*color0 :            #222222
+*color8 :            #454545
+!red
+*color1 :            #B22222
+*color9 :            #FA8072
+!green
+*color2 :            #556B2F
+*color10:            #9ACD32
+!yellow
+*color3 :            #B8860B
+*color11:            #DAA520
+!blue
+*color4 :            #4682B4
+*color12:            #6495ED
+!magenta
+*color5 :            #9932CC
+*color13:            #DA70D6
+!cyan
+*color6 :            #87CEEB
+*color14:            #B0E0E6
+!white
+*color7 :            #C0C0C0
+*color15:            #FFFFFF
+
+
+! rxvt-unicode ---------------------------------------------------------------
+urxvt*transparent: true
+urxvt*perl-ext-common: default,tabbed,matcher,clipboard
+urxvt*shading: 50
+urxvt*fading: 50
+urxvt*font: xft:Bitstream\ Vera\ Sans\ Mono:style=roman:pixelsize=13
+urxvt*print-pipe:         cat > $(echo urxvt.dump.`date +'%Y%M%d%H%m%S'`)
+urxvt*scrollTtyKeypress:  true
+urxvt*scrollWithBuffer:   false
+urxvt*scrollTtyOutput:    false
+urxvt*scrollBar:          false
+urxvt*scrollstyle:        plain
+urxvt*scrollBar_right:    true
+urxvt*scrollColor:        #777777
+
+
