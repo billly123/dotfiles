@@ -40,7 +40,7 @@ urxvt*print-pipe:         cat > $(echo urxvt.dump.`date +'%Y%M%d%H%m%S'`)
 urxvt*scrollTtyKeypress:  true
 urxvt*scrollWithBuffer:   false
 urxvt*scrollTtyOutput:    false
-urxvt*scrollBar:          false
+urxvt*scrollBar:          true
 urxvt*scrollstyle:        plain
 urxvt*scrollBar_right:    true
 urxvt*scrollColor:        #777777
